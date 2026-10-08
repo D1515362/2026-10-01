@@ -1,21 +1,21 @@
-x = int(input("請輸入0或1:")) 
-y = int(input("請輸入0或1:"))
-if (x == 0 or x == 1) and (y == 0 or y == 1):
-    if x == 0 and y == 0:
-        print("x OR y = 0")
-        print("x AND y = 0")
-        print("x XOR y = 0")
-    elif x == 0 and y == 1:
-        print("x OR y = 1")
-        print("x AND y = 0")
-        print("x XOR y = 1")
-    elif x == 1 and y == 0:
-        print("x OR y = 1")
-        print("x AND y = 0")
-        print("x XOR y = 1")
-    elif x == 1 and y == 1:
-        print("x OR y = 1")
-        print("x AND y = 1")
-        print("x XOR y = 0")
+A = int(input("請輸入0或1:")) 
+B = int(input("請輸入0或1:"))
+if (A == 0 or A == 1) and (B == 0 or B == 1):
+    if A == 0 and B == 0:
+        print("A OR B = 0")
+        print("A AND B = 0")
+        print("A XOR B = 0")
+    elif A == 0 and B == 1:
+        print("A OR B = 1")
+        print("A AND B = 0")
+        print("A XOR B = 1")
+    elif A == 1 and B == 0:
+        print("A OR B = 1")
+        print("A AND B = 0")
+        print("A XOR B = 1")
+    elif A == 1 and B == 1:
+        print("A OR B = 1")
+        print("A AND B = 1")
+        print("A XOR B = 0")
 else:
     print("輸入錯誤")                    
